@@ -1,5 +1,10 @@
 import React from "react";
-export default function layout() {
-  return;
-  <div></div>;
+import Navbar from "./navbar"
+export default function Layout({ children }) {
+  return (
+    <div>
+      <Navbar />
+      {children}
+    </div>
+  );
 }

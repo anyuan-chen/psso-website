@@ -1,0 +1,11 @@
+.main{
+    color: #1b361d;
+    font-weight: bolder;
+    font-size: 5em;
+}
+.introduction{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
